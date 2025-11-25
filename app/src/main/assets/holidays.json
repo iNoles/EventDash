@@ -1,0 +1,74 @@
+[
+  {
+    "name": "New Year's Day",
+    "month": 1,
+    "day": 1,
+    "emoji": "🥳"
+  },
+  {
+    "name": "Martin Luther King Jr. Day",
+    "month": 1,
+    "day": 20,
+    "emoji": "✊",
+    "note": "Third Monday in January"
+  },
+  {
+    "name": "Washington's Birthday (Presidents Day)",
+    "month": 2,
+    "day": 17,
+    "emoji": "🇺🇸",
+    "note": "Third Monday in February"
+  },
+  {
+    "name": "Memorial Day",
+    "month": 5,
+    "day": 26,
+    "emoji": "🪖",
+    "note": "Last Monday in May"
+  },
+  {
+    "name": "Juneteenth National Independence Day",
+    "month": 6,
+    "day": 19,
+    "emoji": "✊🏿"
+  },
+  {
+    "name": "Independence Day",
+    "month": 7,
+    "day": 4,
+    "emoji": "🎆"
+  },
+  {
+    "name": "Labor Day",
+    "month": 9,
+    "day": 1,
+    "emoji": "⚒️",
+    "note": "First Monday in September"
+  },
+  {
+    "name": "Columbus Day / Indigenous Peoples’ Day",
+    "month": 10,
+    "day": 13,
+    "emoji": "🌎",
+    "note": "Second Monday in October"
+  },
+  {
+    "name": "Veterans Day",
+    "month": 11,
+    "day": 11,
+    "emoji": "🎖️"
+  },
+  {
+    "name": "Thanksgiving Day",
+    "month": 11,
+    "day": 27,
+    "emoji": "🦃",
+    "note": "Fourth Thursday in November"
+  },
+  {
+    "name": "Christmas Day",
+    "month": 12,
+    "day": 25,
+    "emoji": "🎄"
+  }
+]

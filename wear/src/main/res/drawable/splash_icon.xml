@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle -->
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#1E88E5"/> <!-- Brand/primary color -->
+        </shape>
+    </item>
+
+    <!-- Foreground vector -->
+    <item
+        android:width="40dp"
+        android:height="40dp"
+        android:gravity="center">
+        <vector
+            android:width="40dp"
+            android:height="40dp"
+            android:viewportWidth="960"
+            android:viewportHeight="960">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M200,880q-33,0 -56.5,-23.5T120,800v-560q0,-33 23.5,-56.5T200,160h40v-80h80v80h320v-80h80v80h40q33,0 56.5,23.5T840,240v560q0,33 -23.5,56.5T760,880L200,880ZM200,800h560v-400L200,400v400ZM200,320h560v-80L200,240v80ZM280,560v-80h400v80L280,560ZM280,720v-80h280v80L280,720Z"/>
+        </vector>
+    </item>
+
+</layer-list>
