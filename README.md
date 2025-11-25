@@ -12,6 +12,8 @@ EventDash is a lightweight Android app that keeps your important dates front and
 | Custom Event Tracking | Add personal events and holidays easily. |
 
 ## Screenshots
+![Dashboard](images/dashboard.png)
+![WearOS](images/wearos.png)
 
 ## Installation
 
