@@ -63,6 +63,7 @@ dependencies {
 
     implementation("com.google.dagger:hilt-android:2.57.2")
     implementation(libs.gms.play.services.wearable)
+    implementation(libs.androidx.core.i18n)
     ksp("com.google.dagger:hilt-android-compiler:2.57.2")
 
     implementation("androidx.hilt:hilt-work:1.3.0")
