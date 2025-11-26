@@ -72,7 +72,7 @@ fun HomeScreenContent(
                     val cardHeight = when (event.urgency) {
                         Urgency.TODAY_OR_PASSED, Urgency.URGENT -> 180.dp
                         Urgency.SOON -> 150.dp
-                        else -> 130.dp
+                        else -> 140.dp
                     }
 
                     EventCard(

@@ -7,10 +7,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.jonathansteele.eventdash.data.Event
 import com.jonathansteele.eventdash.data.Urgency
 
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 fun EventCard(event: Event, modifier: Modifier = Modifier) {
     // Expressive colors based on urgency
@@ -42,12 +44,14 @@ fun EventCard(event: Event, modifier: Modifier = Modifier) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     text = event.emoji ?: "📅",
-                    style = MaterialTheme.typography.titleLarge,
+                    style = MaterialTheme.typography.titleMedium,
                     modifier = Modifier.padding(end = 8.dp)
                 )
                 Text(
                     text = event.title,
-                    style = MaterialTheme.typography.titleLarge,
+                    style = MaterialTheme.typography.titleMediumEmphasized,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
                     color = contentColor
                 )
             }
